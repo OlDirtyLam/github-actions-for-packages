@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - "**Dockerfile**"
+      - ".github/workflows/cd-workflow.yml"
 jobs:
   build:
     runs-on: ubuntu-latest
